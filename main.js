@@ -8,10 +8,10 @@ function navigateToQuiz(startAnchor) {
     startAnchor.addEventListener("click", () => {
       switch (hp.isUserLoggedIn("QF_Logger")) {
         case true:
-          window.location.href = "../src/QuizFusion.html";
+          window.location.href = "./src/QuizFusion.html";
           break;
         default:
-          window.location.href = "../forms/login.html";
+          window.location.href = "./forms/login.html";
           break;
       }
     });
