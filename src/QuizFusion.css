@@ -135,7 +135,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-size: 200%;
+  font-size: 3vw;
 }
 
 #answersBox {
