@@ -243,3 +243,15 @@ i {
   align-items: center;
   width: 6rem;
 }
+.offcanvas {
+  padding: -1rem;
+  margin: 0;
+}
+
+.my-custom-class .offcanvas-body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100vw;
+
+}
